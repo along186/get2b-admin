@@ -1,0 +1,1300 @@
+---------------------------------------------------------------
+[ 2018-11-15T23:52:49+08:00 ] 127.0.0.1 GET /admin
+[ info ] localhost:8002/admin [运行时间：0.160023s][吞吐率：6.25req/s] [内存消耗：726.30kb] [文件加载：64]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.010270s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.004589s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000773s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.003588s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009148s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.023766s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.001970s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:52:49+08:00 ] 127.0.0.1 GET /admin/public/login.html
+[ info ] localhost:8002/admin/public/login.html [运行时间：0.036367s][吞吐率：27.50req/s] [内存消耗：522.61kb] [文件加载：67]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000695s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000374s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000109s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\PublicController->login[ /Users/liufeilong/php/workspace/Get2b/app/admin/controller/PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] themes/admin/admin/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.009121s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:52:49+08:00 ] 127.0.0.1 GET /favicon.ico
+[ info ] localhost:8002/favicon.ico [运行时间：0.009980s][吞吐率：100.20req/s] [内存消耗：244.04kb] [文件加载：48]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000324s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.001138s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-15T23:53:04+08:00 ] 127.0.0.1 POST /admin/public/dologin.html
+[ info ] localhost:8002/admin/public/dologin.html [运行时间：0.037881s][吞吐率：26.40req/s] [内存消耗：519.66kb] [文件加载：63]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000262s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:8002/admin/public/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '111111',
+  'redirect' => '',
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000259s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000078s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\PublicController->doLogin[ /Users/liufeilong/php/workspace/Get2b/app/admin/controller/PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005355s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.011020s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.007139s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `user_login` = 'admin' LIMIT 1 [ RunTime:0.009022s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:53:08+08:00 ] 127.0.0.1 POST /admin/public/dologin.html
+[ info ] localhost:8002/admin/public/dologin.html [运行时间：0.044437s][吞吐率：22.50req/s] [内存消耗：495.77kb] [文件加载：64]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000177s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2',
+  'connection' => 'keep-alive',
+  'content-length' => '41',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:8002/admin/public/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'a111111',
+  'redirect' => '',
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000214s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000100s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\PublicController->doLogin[ /Users/liufeilong/php/workspace/Get2b/app/admin/controller/PublicController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.012172s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.003480s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `user_login` = 'admin' LIMIT 1 [ RunTime:0.004700s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_role_user` [ RunTime:0.005797s ]
+[ sql ] [ SQL ] SELECT `role_id` FROM `gb_role_user` `a` INNER JOIN `gb_role` `b` ON `a`.`role_id`=`b`.`id` WHERE  `user_id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.002862s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user_token` [ RunTime:0.004620s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user_token` WHERE  `user_id` = 1  AND `device_type` = 'web' LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] UPDATE `gb_user`  SET `user_type`=1,`sex`=0,`birthday`=0,`last_login_time`=1542297188,`score`=0,`coin`=0,`balance`=0,`create_time`=1541600385,`user_status`=1,`user_login`='admin',`user_pass`='###acb9977d671ae576e9ba373ed526cf43',`user_nickname`='admin',`user_email`='541159078@qq.com',`user_url`='',`avatar`='',`signature`='',`last_login_ip`='127.0.0.1',`user_activation_key`='',`mobile`='',`more`=NULL  WHERE  `id` = 1 [ RunTime:0.004334s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:53:10+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ info ] localhost:8002/admin/index/index.html [运行时间：0.053497s][吞吐率：18.69req/s] [内存消耗：777.72kb] [文件加载：73]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000235s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/admin/public/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000424s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000123s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000303s ]
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ /Users/liufeilong/php/workspace/Get2b/app/admin/controller/IndexController.php ]
+[ info ] [ VIEW ] themes/admin/admin/index/index.html [ array (
+  0 => 'admin',
+  1 => 'menus',
+  2 => 'menus_js_var',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002573s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.004241s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.010881s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_admin_menu` [ RunTime:0.007790s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_admin_menu` ORDER BY `app` ASC,`controller` ASC,`action` ASC [ RunTime:0.002326s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.000241s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:53:10+08:00 ] 127.0.0.1 GET /admin/main/index.html
+[ info ] localhost:8002/admin/main/index.html [运行时间：0.024841s][吞吐率：40.26req/s] [内存消耗：555.10kb] [文件加载：71]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000387s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000717s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000197s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000249s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\MainController->index[ /Users/liufeilong/php/workspace/Get2b/app/admin/controller/MainController.php ]
+[ info ] [ VIEW ] themes/admin/admin/main/index.html [ array (
+  0 => 'admin',
+  1 => 'dashboard_widgets',
+  2 => 'dashboard_widget_plugins',
+  3 => 'has_smtp_setting',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.007122s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.003913s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_dashboard_widgets' LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'smtp_setting' LIMIT 1 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:53:11+08:00 ] 127.0.0.1 GET /favicon.ico
+[ info ] localhost:8002/favicon.ico [运行时间：0.002857s][吞吐率：350.02req/s] [内存消耗：242.68kb] [文件加载：48]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000221s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000263s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-15T23:53:11+08:00 ] 127.0.0.1 GET /admin/main/jquery.tag-editor.css
+[ info ] localhost:8002/admin/main/jquery.tag-editor.css [运行时间：0.026941s][吞吐率：37.12req/s] [内存消耗：534.23kb] [文件加载：69]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000240s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'main',
+    2 => 'jquery.tag-editor.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/admin/main/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000392s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000146s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000262s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004642s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.011732s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.001216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.003557s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000502s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:53:15+08:00 ] 127.0.0.1 GET /portal/admin_category/index.html
+[ info ] localhost:8002/portal/admin_category/index.html [运行时间：0.056652s][吞吐率：17.65req/s] [内存消耗：677.51kb] [文件加载：78]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000322s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000252s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.003335s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000489s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\portal\controller\AdminCategoryController->index[ /Users/liufeilong/php/workspace/Get2b/app/portal/controller/AdminCategoryController.php ]
+[ info ] [ VIEW ] themes/admin/portal/admin_category/index.html [ array (
+  0 => 'admin',
+  1 => 'category_tree',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.008025s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.003788s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.009364s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_portal_category` [ RunTime:0.008506s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_portal_category` WHERE  `delete_time` = 0 ORDER BY `list_order` ASC [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:53:15+08:00 ] 127.0.0.1 GET /portal/admin_category/jquery.tag-editor.css
+[ info ] localhost:8002/portal/admin_category/jquery.tag-editor.css [运行时间：0.017877s][吞吐率：55.94req/s] [内存消耗：530.68kb] [文件加载：69]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000224s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'jquery.tag-editor.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/portal/admin_category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000296s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000117s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000267s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007583s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.002512s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.003033s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:53:17+08:00 ] 127.0.0.1 GET /portal/admin_category/add.html
+[ info ] localhost:8002/portal/admin_category/add.html [运行时间：0.034584s][吞吐率：28.92req/s] [内存消耗：607.23kb] [文件加载：76]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000184s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/portal/admin_category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000221s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000070s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000276s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\portal\controller\AdminCategoryController->add[ /Users/liufeilong/php/workspace/Get2b/app/portal/controller/AdminCategoryController.php ]
+[ info ] [ VIEW ] themes/admin/portal/admin_category/add.html [ array (
+  0 => 'admin',
+  1 => 'list_theme_files',
+  2 => 'article_theme_files',
+  3 => 'categories_tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.005114s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.004125s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_portal_category` [ RunTime:0.002982s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_portal_category` WHERE  `delete_time` = 0 ORDER BY `list_order` ASC [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_theme_file` [ RunTime:0.010622s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_theme_file` WHERE  `theme` = 'simpleboot3'  AND `action` = 'portal/List/index' [ RunTime:0.000897s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_theme_file` WHERE  `theme` = 'simpleboot3'  AND `action` = 'portal/Article/index' [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:53:17+08:00 ] 127.0.0.1 GET /portal/admin_category/jquery.tag-editor.css
+[ info ] localhost:8002/portal/admin_category/jquery.tag-editor.css [运行时间：0.031561s][吞吐率：31.68req/s] [内存消耗：530.68kb] [文件加载：69]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000227s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'jquery.tag-editor.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/portal/admin_category/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000349s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000118s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000626s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007249s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.009828s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.006757s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000823s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:56:04+08:00 ] 127.0.0.1 GET /portal/admin_category/add.html
+[ info ] localhost:8002/portal/admin_category/add.html [运行时间：0.042674s][吞吐率：23.43req/s] [内存消耗：606.45kb] [文件加载：76]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000724s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/portal/admin_category/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000424s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000393s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000359s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\portal\controller\AdminCategoryController->add[ /Users/liufeilong/php/workspace/Get2b/app/portal/controller/AdminCategoryController.php ]
+[ info ] [ VIEW ] themes/admin/portal/admin_category/add.html [ array (
+  0 => 'admin',
+  1 => 'list_theme_files',
+  2 => 'article_theme_files',
+  3 => 'categories_tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.008567s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.008016s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_portal_category` [ RunTime:0.006773s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_portal_category` WHERE  `delete_time` = 0 ORDER BY `list_order` ASC [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_theme_file` [ RunTime:0.005988s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_theme_file` WHERE  `theme` = 'simpleboot3'  AND `action` = 'portal/List/index' [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_theme_file` WHERE  `theme` = 'simpleboot3'  AND `action` = 'portal/Article/index' [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:56:04+08:00 ] 127.0.0.1 GET /portal/admin_category/jquery.tag-editor.css
+[ info ] localhost:8002/portal/admin_category/jquery.tag-editor.css [运行时间：0.033445s][吞吐率：29.90req/s] [内存消耗：530.68kb] [文件加载：69]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000286s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'jquery.tag-editor.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/portal/admin_category/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000336s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000136s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000285s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007873s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.013725s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.004014s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000984s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:57:19+08:00 ] 127.0.0.1 GET /portal/admin_category/add.html
+[ info ] localhost:8002/portal/admin_category/add.html [运行时间：0.039420s][吞吐率：25.37req/s] [内存消耗：606.45kb] [文件加载：76]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000539s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/portal/admin_category/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000245s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000390s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000289s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\portal\controller\AdminCategoryController->add[ /Users/liufeilong/php/workspace/Get2b/app/portal/controller/AdminCategoryController.php ]
+[ info ] [ VIEW ] themes/admin/portal/admin_category/add.html [ array (
+  0 => 'admin',
+  1 => 'list_theme_files',
+  2 => 'article_theme_files',
+  3 => 'categories_tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.007031s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.008850s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_portal_category` [ RunTime:0.007166s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_portal_category` WHERE  `delete_time` = 0 ORDER BY `list_order` ASC [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_theme_file` [ RunTime:0.004366s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_theme_file` WHERE  `theme` = 'simpleboot3'  AND `action` = 'portal/List/index' [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_theme_file` WHERE  `theme` = 'simpleboot3'  AND `action` = 'portal/Article/index' [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:57:19+08:00 ] 127.0.0.1 GET /portal/admin_category/jquery.tag-editor.css
+[ info ] localhost:8002/portal/admin_category/jquery.tag-editor.css [运行时间：0.024905s][吞吐率：40.15req/s] [内存消耗：530.68kb] [文件加载：69]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000315s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'jquery.tag-editor.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/portal/admin_category/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000776s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000107s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000244s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010443s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.003788s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.003835s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:58:22+08:00 ] 127.0.0.1 GET /portal/admin_category/add.html
+[ info ] localhost:8002/portal/admin_category/add.html [运行时间：0.049965s][吞吐率：20.01req/s] [内存消耗：606.45kb] [文件加载：76]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000803s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/portal/admin_category/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000714s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000529s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000588s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\portal\controller\AdminCategoryController->add[ /Users/liufeilong/php/workspace/Get2b/app/portal/controller/AdminCategoryController.php ]
+[ info ] [ VIEW ] themes/admin/portal/admin_category/add.html [ array (
+  0 => 'admin',
+  1 => 'list_theme_files',
+  2 => 'article_theme_files',
+  3 => 'categories_tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000601s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.012490s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.011518s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_portal_category` [ RunTime:0.005099s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_portal_category` WHERE  `delete_time` = 0 ORDER BY `list_order` ASC [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_theme_file` [ RunTime:0.004342s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_theme_file` WHERE  `theme` = 'simpleboot3'  AND `action` = 'portal/List/index' [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_theme_file` WHERE  `theme` = 'simpleboot3'  AND `action` = 'portal/Article/index' [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.001696s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:58:22+08:00 ] 127.0.0.1 GET /portal/admin_category/jquery.tag-editor.css
+[ info ] localhost:8002/portal/admin_category/jquery.tag-editor.css [运行时间：0.032411s][吞吐率：30.85req/s] [内存消耗：530.68kb] [文件加载：69]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000275s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'jquery.tag-editor.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/portal/admin_category/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000345s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000119s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000230s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010816s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.010987s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.004103s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:58:58+08:00 ] 127.0.0.1 GET /portal/admin_category/add.html
+[ info ] localhost:8002/portal/admin_category/add.html [运行时间：0.041429s][吞吐率：24.14req/s] [内存消耗：606.45kb] [文件加载：76]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000517s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/portal/admin_category/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000396s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000550s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000289s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\portal\controller\AdminCategoryController->add[ /Users/liufeilong/php/workspace/Get2b/app/portal/controller/AdminCategoryController.php ]
+[ info ] [ VIEW ] themes/admin/portal/admin_category/add.html [ array (
+  0 => 'admin',
+  1 => 'list_theme_files',
+  2 => 'article_theme_files',
+  3 => 'categories_tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000558s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.008735s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.009284s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_portal_category` [ RunTime:0.005670s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_portal_category` WHERE  `delete_time` = 0 ORDER BY `list_order` ASC [ RunTime:0.002065s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_theme_file` [ RunTime:0.004912s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_theme_file` WHERE  `theme` = 'simpleboot3'  AND `action` = 'portal/List/index' [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_theme_file` WHERE  `theme` = 'simpleboot3'  AND `action` = 'portal/Article/index' [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:58:58+08:00 ] 127.0.0.1 GET /portal/admin_category/jquery.tag-editor.css
+[ info ] localhost:8002/portal/admin_category/jquery.tag-editor.css [运行时间：0.036515s][吞吐率：27.39req/s] [内存消耗：530.68kb] [文件加载：69]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000308s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'jquery.tag-editor.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/portal/admin_category/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000283s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000233s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000301s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002428s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.018767s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.007088s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000443s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:59:46+08:00 ] 127.0.0.1 GET /portal/admin_category/add.html
+[ info ] localhost:8002/portal/admin_category/add.html [运行时间：0.043116s][吞吐率：23.19req/s] [内存消耗：606.45kb] [文件加载：76]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000688s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/portal/admin_category/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000348s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000551s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000319s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\portal\controller\AdminCategoryController->add[ /Users/liufeilong/php/workspace/Get2b/app/portal/controller/AdminCategoryController.php ]
+[ info ] [ VIEW ] themes/admin/portal/admin_category/add.html [ array (
+  0 => 'admin',
+  1 => 'list_theme_files',
+  2 => 'article_theme_files',
+  3 => 'categories_tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.008328s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.009167s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_portal_category` [ RunTime:0.008287s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_portal_category` WHERE  `delete_time` = 0 ORDER BY `list_order` ASC [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_theme_file` [ RunTime:0.004495s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_theme_file` WHERE  `theme` = 'simpleboot3'  AND `action` = 'portal/List/index' [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_theme_file` WHERE  `theme` = 'simpleboot3'  AND `action` = 'portal/Article/index' [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'admin_settings' LIMIT 1 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2018-11-15T23:59:46+08:00 ] 127.0.0.1 GET /portal/admin_category/jquery.tag-editor.css
+[ info ] localhost:8002/portal/admin_category/jquery.tag-editor.css [运行时间：0.035177s][吞吐率：28.43req/s] [内存消耗：530.68kb] [文件加载：69]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.000240s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/simplewind/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'admin_category',
+    2 => 'jquery.tag-editor.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k1fa7l1dphen70k9tkuhitjlc2; admin_username=admin',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost:8002/portal/admin_category/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+  'host' => 'localhost:8002',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../simplewind/cmf/lang/zh-cn.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/common.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn/common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.000386s ]
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/portal/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000541s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin_menu.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/admin/lang/zh-cn/admin.php
+[ info ] [ LANG ] /Users/liufeilong/php/workspace/Get2b/public/../app/user/lang/zh-cn/admin_menu.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\AdminLangBehavior @admin_init [ RunTime:0.000344s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011950s ] mysql:host=127.0.0.1;port=3306;dbname=Get2b;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_option` [ RunTime:0.009010s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `gb_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gb_user` [ RunTime:0.006644s ]
+[ sql ] [ SQL ] SELECT * FROM `gb_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000480s ]
