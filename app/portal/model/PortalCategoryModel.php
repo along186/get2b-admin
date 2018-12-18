@@ -88,10 +88,8 @@ class PortalCategoryModel extends Model
         if (empty($tpl)) {
             $tpl = " <tr id='node-\$id' \$parent_id_node style='\$style' data-parent_id='\$parent_id' data-id='\$id'>
                         <td style='padding-left:20px;'><input type='checkbox' class='js-check' data-yid='js-check-y' data-xid='js-check-x' name='ids[]' value='\$id' data-parent_id='\$parent_id' data-id='\$id'></td>
-                        <td><input name='list_orders[\$id]' type='text' size='3' value='\$list_order' class='input-order'></td>
                         <td>\$id</td>
-                        <td>\$spacer <a href='\$url' target='_blank'>\$name</a></td>
-                        <td>\$description</td>
+                        <td>\$spacer \$name</td>
                         <td>\$status_text</td>
                         <td>\$str_action</td>
                     </tr>";
