@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:43:"themes/admin/portal/admin_article/edit.html";i:1542353434;s:82:"/Users/liufeilong/php/workspace/get2b/admin/public/themes/admin/public/header.html";i:1541948631;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:43:"themes/admin/portal/admin_article/edit.html";i:1545128818;s:82:"/Users/liufeilong/php/workspace/get2b/admin/public/themes/admin/public/header.html";i:1541948631;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -160,10 +160,24 @@
                         </td>
                     </tr>
                     <tr>
+                        <th>开发商名称</th>
+                        <td>
+                            <input class="form-control" type="text" name="post[post_developer]"
+                                   id="developer" required value="<?php echo $post['post_developer']; ?>" placeholder="请输入开发商名称"/>
+                        </td>
+                    </tr>
+                    <tr>
                         <th>开发商介绍</th>
                         <td>
+                            <textarea class="form-control" name="post[post_developer_introduction]" style="height: 50px;"
+                                      placeholder="请填写开发商介绍"><?php echo $post['post_developer_introduction']; ?></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>应用简介</th>
+                        <td>
                             <textarea class="form-control" name="post[post_excerpt]" style="height: 50px;"
-                                      placeholder="请填写开发商介绍"><?php echo $post['post_excerpt']; ?></textarea>
+                                      placeholder="请填写应用简介"><?php echo $post['post_excerpt']; ?></textarea>
                         </td>
                     </tr>
                     <tr>
@@ -302,7 +316,7 @@
                 </table>
 
                 <?php 
-    \think\Hook::listen('portal_admin_article_edit_view_main',$temp5c17229698f2d,null,false);
+    \think\Hook::listen('portal_admin_article_edit_view_main',$temp5c1a184647772,null,false);
  ?>
             </div>
             <div class="col-md-3">
@@ -392,7 +406,7 @@
                 </table>
 
                 <?php 
-    \think\Hook::listen('portal_admin_article_edit_view_right_sidebar',$temp5c17229698f41,null,false);
+    \think\Hook::listen('portal_admin_article_edit_view_right_sidebar',$temp5c1a18464778d,null,false);
  ?>
             </div>
         </div>

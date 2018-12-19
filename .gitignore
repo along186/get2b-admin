@@ -6,4 +6,5 @@
 /api
 /public/api
 /public/assets/dist
+data/runtime
 /node_modules

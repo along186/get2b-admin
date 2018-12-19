@@ -118,7 +118,7 @@
 
 </style>
 <?php 
-    \think\Hook::listen('admin_before_head_end',$temp5c171d33c6089,null,false);
+    \think\Hook::listen('admin_before_head_end',$temp5c1a17e869b23,null,false);
  ?>
 </head>
 <body>
@@ -268,7 +268,7 @@
 
 </script>
     <?php 
-    \think\Hook::listen('admin_before_body_end',$temp5c171d33c60a8,null,false);
+    \think\Hook::listen('admin_before_body_end',$temp5c1a17e869b75,null,false);
  ?>
 </body>
 </html>
